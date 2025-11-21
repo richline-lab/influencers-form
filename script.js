@@ -1,5 +1,5 @@
 // 🔒 Safe business use — NOT phishing
-// هذا السكربت لجمع بيانات التعاون مع المؤثرين لشركة Richline فقط
+// سكربت خاص بإدارة نموذج بيانات التواصل التجاري لشركة Richline
 
 const SCRIPT_URL =
     "https://script.google.com/macros/s/AKfycbypjJpC2xDRpXswsM3pArPQXNZ2X_KWE81E7LNa2bl00msYs_wFf6EI1tXRnulDM648/exec";
@@ -21,7 +21,7 @@ function validateAtLeastOnePlatform() {
         if (form.querySelector(`[name="${p}"]`).value.trim() !== "") return true;
     }
 
-    showErrorMessage("يجب إضافة حساب واحد على الأقل من منصات التواصل.");
+    showErrorMessage("يجب إضافة منصة نشر واحدة على الأقل.");
     return false;
 }
 
