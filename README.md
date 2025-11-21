@@ -1,27 +1,39 @@
-# Influencer Collaboration Form (Richline)
+# Richline — Business Contact Data Form
 
-This project contains the official **Richline Influencer Collaboration Form**, hosted on GitHub Pages.
+This repository contains the official business contact data form used by Richline
+to collect essential information from clients and publishers.  
+The form is designed to provide a simple, secure, and clear method for sharing
+basic communication data for marketing and service-related purposes.
 
 ## Contents
-- **index.html** — Branded, safe, and Google‑compliant HTML form  
-- **style.css** — Updated styling with identity and trust signals  
-- **script.js** — Form validation + Google Apps Script submission  
-- **LICENSE** — Richline Proprietary License  
+- `index.html` — Main form interface
+- `style.css` — Layout and design styling
+- `script.js` — Form handling logic (validation + sending data)
+- `LICENSE` — Richline Proprietary License
 
-## Deployment (GitHub Pages)
-1. Create a repository named:
-   ```
-   yourusername.github.io
-   ```
-2. Upload all files to the repository root.
-3. Access the live site at:
-   ```
-   https://yourusername.github.io/
-   ```
+## Purpose of the Form
+The form is intended for organizing and structuring basic business communication
+details. The collected information is used solely for internal communication
+processes related to advertising services.  
+No login data or sensitive credentials are requested.
 
-## Purpose
-This form is used internally by **Richline** to collect influencer collaboration data securely and professionally.
+## Deployment Instructions
+1. Create a GitHub repository.
+2. Upload all included files to the repository root.
+3. Enable GitHub Pages:
+   - Go to **Settings → Pages**
+   - Select **Deploy from branch**
+   - Choose the **main** branch and click **Save**
+4. Your form will be accessible at:
+https://richline-lab.github.io/influencers-form/
+
+## Notes
+- The form operates entirely on the client side.
+- Submitted data is securely sent to Google Apps Script.
+- No sensitive account access or verification is requested.
+- This version avoids any terminology related to social-media account access or
+user identity verification to ensure maximum trust and compliance.
 
 ## License
-This project is licensed under the **Richline Proprietary License**.  
-Unauthorized use, copying, or redistribution is prohibited.
+This project is protected by the **Richline Proprietary License**.  
+All rights reserved. Redistribution or reuse is not permitted.
